@@ -70,6 +70,8 @@ $(document).ready(function () {
 			selectedCharacters += numbers;
 		}
 
+		selectedCharacters = [...selectedCharacters].sort(() => Math.random() - 0.5).join("");
+
 		let password = "";
 		for (i = 0; i < passwordLength; i++) {
 			password += selectedCharacters.charAt(Math.floor(Math.random() * selectedCharacters.length));

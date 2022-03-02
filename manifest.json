@@ -1,0 +1,17 @@
+{
+  "name": "Password Generator",
+  "description": "Generate a strong password of a given length (Created by Archasion)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "js/script-wrapper.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "svg/Password Generator [ICON].png",
+    "48": "svg/Password Generator [ICON].png",
+    "128": "svg/Password Generator [ICON].png"
+  }
+}

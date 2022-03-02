@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui-1.13.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <div id="main-background">
+        <div id="password-length-container">
+            <div id="password-length-header">
+                <span>Password Length</span>
+                <span id="password-length" contenteditable="true">8</span>
+            </div>
+            <div id="slider-container">
+                <input type="range" min="8" max="100" value="8" id="slider">
+            </div>
+        </div>
+        <div id="password-options">
+            <button id="letters" class="option-button">
+                <span>Use Letters</span>
+            </button>
+            <button id="symbols" class="option-button">
+                <span>Use Special Characters</span>
+            </button>
+            <button id="capitalize" class="option-button">
+                <span>Use Capital Letters</span>
+            </button>
+            <button id="numbers" class="option-button">
+                <span>Use Numbers</span>
+            </button>
+        </div>
+        <div id="password-output">
+            <div id="password-container">
+                <input id="password" type="text" placeholder="Generated password...">
+                <button id="copy-password">
+                    <img id="copy-svg" src="svg/copy.svg" alt="copy">
+                </button>
+            </div>
+            <button id="generate-password">
+                <span>GENERATE</span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>

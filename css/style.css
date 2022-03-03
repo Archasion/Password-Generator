@@ -25,13 +25,25 @@ body {
 }
 
 button {
-	-webkit-transition: opacity 0.2s;
-	transition: opacity 0.2s;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
 	cursor: pointer;
 }
 
-button:hover {
-	opacity: 0.8;
+.option-button:hover {
+	background: var(--accent-color);
+}
+
+.option-button:hover > span {
+	color: var(--text-color);
+}
+
+#generate-password:hover {
+	background: var(--text-color);
+}
+
+#generate-password:hover > span {
+	color: var(--accent-color);
 }
 
 #main-background {
@@ -78,7 +90,7 @@ button:hover {
 #slider-container {
 	background: var(--text-color);
 	border-radius: 0 0 4px 4px;
-	padding: 6px 8px;
+	padding: 6.5px 8px;
 	width: calc(100% - 16px);
 	height: 18px;
 }

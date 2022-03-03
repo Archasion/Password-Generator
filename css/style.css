@@ -57,7 +57,7 @@ button {
 #password-length-container {
 	flex-direction: column;
 	display: flex;
-	height: 55px;
+	height: 52px;
 	width: 100%;
 }
 

@@ -19,7 +19,7 @@ $(document).ready(function () {
 	});
 
 	$("#password-length").keypress(function (event) {
-		if ($("#password-length").text().length === 4) event.preventDefault();
+		if ($("#password-length").text().length === 4 || event.which === 13) event.preventDefault();
 		if (isNaN(String.fromCharCode(event.which)) || String.fromCharCode(event.which) === " ") {
 			event.preventDefault();
 		}

@@ -13,7 +13,6 @@
 * {
 	color: var(--text-color);
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 600;
 	margin: 0;
 }
 
@@ -25,8 +24,6 @@ body {
 }
 
 button {
-	-webkit-transition: 0.2s;
-	transition: 0.2s;
 	cursor: pointer;
 }
 
@@ -89,10 +86,10 @@ button {
 
 #slider-container {
 	background: var(--text-color);
-	border-radius: 0 0 4px 4px;
-	padding: 6.5px 8px;
 	width: calc(100% - 16px);
-	height: 18px;
+	border-radius: 0 0 4px 4px;
+	padding: 6px 8px;
+	height: 15px;
 }
 
 #slider {
@@ -113,7 +110,7 @@ button {
 	appearance: none;
 	cursor: pointer;
 	border-radius: 2px;
-	height: 20px;
+	height: 18px;
 	width: 10px;
 
 	-webkit-appearance: none;
@@ -125,7 +122,7 @@ button {
 	appearance: none;
 	cursor: pointer;
 	border-radius: 2px;
-	height: 20px;
+	height: 18px;
 	width: 10px;
 }
 

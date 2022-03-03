@@ -40,8 +40,8 @@ $(document).ready(function () {
 
 	$(".option-button").click(function () {
 		if ($(this).hasClass("active")) {
-			$(this).css("background", "var(--text-color)");
-			$(this).find("span").css("color", "var(--accent-color)");
+			$(this).css("background", "");
+			$(this).find("span").css("color", "");
 			$(this).removeClass("active");
 		} else {
 			$(this).css("background", "var(--accent-color)");
